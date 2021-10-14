@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(255, 0, 157);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* -- Navigation -- */
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav li {
+  background: rgb(51, 51, 51);
+  float: left;
+  padding: 10px 0px 10px 0px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: rgb(160, 160, 160);
+}
+
+hr.line {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+h2::first-letter {
+  color: rgb(255, 255, 255);
+}
+
+p::after {
+  content: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F662%2F573%2Fpng-transparent-mickey-mouse-minnie-mouse-donald-duck-the-walt-disney-company-mickey-mouse.png&imgrefurl=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dmickey%2Bmouse&tbnid=wAo3d5fnFSR0vM&vet=12ahUKEwiZ0aGq_snzAhUNwioKHammCn8QMygAegUIARCZAQ..i&docid=A_aF6nV4fEqOLM&w=920&h=719&q=mickey%20mouse%20png&ved=2ahUKEwiZ0aGq_snzAhUNwioKHammCn8QMygAegUIARCZAQ);
+}
