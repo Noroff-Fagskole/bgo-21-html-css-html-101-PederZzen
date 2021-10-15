@@ -1,6 +1,5 @@
 body {
-  background-color: rgb(255, 0, 157);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(207, 117, 173);
 }
 
 /* -- Navigation -- */
@@ -34,9 +33,21 @@ hr.line {
 }
 
 h2::first-letter {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
 }
 
 p::after {
   content: url();
+}
+
+h1,
+h2,
+h3 {
+  font-family: anton;
+}
+
+p {
+  font-family: "open sans";
+  text-align: justify;
+  width: 500px;
 }
